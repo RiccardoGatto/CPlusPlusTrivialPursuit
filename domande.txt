@@ -33,7 +33,7 @@ Francese, italiano, austriaco, romancio
 Francese, italiano, tedesco, romancio 
 Tedesco, italiano, romancio, francese 
 Italiano, tedesco, romancio, napoletano 
-quale e' il paese piu' popolato al mondo?
+Qual e' il paese piu' popolato al mondo?
 Russia 
 Mongolia 
 Cina 
@@ -63,7 +63,7 @@ Frutta
 Ortaggi 
 Verdura 
 Tubero 
-Quale e' l'animale piu' pericoloso del mondo?
+Qual e' l'animale piu' pericoloso del mondo?
 Medusa di lago 
 Rosita di Ostia 
 Pesce pietra 
@@ -88,7 +88,7 @@ Un byte
 Un bit 
 Otto byte 
 Otto bit 
-quale e' la forma corretta di scrivere un ciclo forin C++?
+Qual e' la forma corretta di scrivere un ciclo forin C++?
 For(inizializzazione;incremento;condizione) 
 For(condizione;inizializzazione;incremento) 
 For(inizializzazione,condizione,incremento) 
