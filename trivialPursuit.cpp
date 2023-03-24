@@ -60,7 +60,6 @@ void ilMioPiccoloMain()
     int giocata = 5;
     int punti = 0;
     int risposta;
-    stampaConDelay("Rosita, guarda il main...\n");
     cout << endl;
     bool domande[NUMERODOMANDE];
     for (int i = 0; i < NUMERODOMANDE; i++)
