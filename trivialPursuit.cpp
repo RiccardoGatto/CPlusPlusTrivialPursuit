@@ -16,7 +16,7 @@ void stampaConDelay(string frase)
     for (int i = 0; i < frase.length(); i++)
     {
         cout << frase[i];
-        Sleep(15);
+        Sleep(1);
     }
 }
 string *getDomanda(int numero)
@@ -55,7 +55,7 @@ string getRispostaEsatta(int numero)
     }
     return ris;
 }
-void ilMioPiccoloMain()
+void gioca()
 {
     int giocata = 5;
     int punti = 0;
@@ -109,5 +109,5 @@ void ilMioPiccoloMain()
 
 int main()
 {
-    ilMioPiccoloMain();
+    gioca();
 }
