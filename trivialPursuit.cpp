@@ -77,14 +77,19 @@ void gioca()
         domande[indiceDomanda] = true;
         string *domanda = getDomanda(indiceDomanda);
         string rispostaEsatta = getRispostaEsatta(indiceDomanda);
+        cout << "\033[1m\033[36m";
         stampaConDelay(domanda[0] + "\n");
+        
         stampaConDelay("-------------------------------------------------------------------\n");
+        cout << "\033[0m\033[37m";
         for (int i = 1; i < SINGOLADOMANDA; i++)
         {
             stampaConDelay(to_string(i) + ") ");
             stampaConDelay(domanda[i] + "\n");
         }
+        cout << "\033[1m\033[36m";
         stampaConDelay("-------------------------------------------------------------------\n");
+        cout << "\033[0m\033[37m";
         stampaConDelay("Qual e' la risposta esatta?  ");
         cin >> risposta;
         while ((risposta<1) or (risposta>4))
@@ -94,17 +99,22 @@ void gioca()
         }
         if (rispostaEsatta == domanda[risposta])
         {
+            cout << "\033[1m\033[32m";
             stampaConDelay("GIUSTOOOOOO!!\n\n");
+            cout << "\033[0m\033[37m";
             punti += 10;
         }
         else
         {
+            cout << "\033[1m\033[31m";
             stampaConDelay("Sbagliato...\n\n");
+            cout << "\033[0m\033[37m";
         }
     }
-    stampaConDelay("\nHai totalizzato......... ");
-    cout << punti;
-    stampaConDelay(" punti!");
+    string messaggioFinale = "\nHai totalizzato......... " + to_string(punti) + " punti!";
+    cout << "\033[1m\033[36m";
+    stampaConDelay(messaggioFinale);
+    cout << "\033[0m\033[37m";
 }
 
 int main()

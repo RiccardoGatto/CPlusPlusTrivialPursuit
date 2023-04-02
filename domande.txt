@@ -88,7 +88,7 @@ Un byte
 Un bit 
 Otto byte 
 Otto bit 
-Qual e' la forma corretta di scrivere un ciclo forin C++?
+Qual e' la forma corretta per scrivere un ciclo for in C++?
 For(inizializzazione;incremento;condizione) 
 For(condizione;inizializzazione;incremento) 
 For(inizializzazione,condizione,incremento) 
@@ -118,7 +118,7 @@ Return
 Nulla 
 Void 
 Intero 
-Come commentare su C++?
+Come commentare in C++?
 Con /**/ per una sola riga, con // per piu' righe 
 Con il prefisso "comm//"per una riga, "comm/*/ per piu' righe 
 Con // per una sola riga, con /**/ per piu' righe 
@@ -128,7 +128,7 @@ Void
 Funzione main 
 Iostream 
 Funzione *include 
-Cosa fa la funzione getline su C++?
+Cosa fa la funzione getline in C++?
 Legge riga e apre un file chiuso 
 Legge paragrafo per paragrafo di un file aperto 
 Legge riga per riga da un file aperto 
