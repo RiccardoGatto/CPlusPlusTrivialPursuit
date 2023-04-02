@@ -79,7 +79,6 @@ void gioca()
         string rispostaEsatta = getRispostaEsatta(indiceDomanda);
         cout << "\033[1m\033[36m";
         stampaConDelay(domanda[0] + "\n");
-        
         stampaConDelay("-------------------------------------------------------------------\n");
         cout << "\033[0m\033[37m";
         for (int i = 1; i < SINGOLADOMANDA; i++)
